@@ -1,7 +1,13 @@
+import Container from "./Container";
+import Footer from "./Footer";
+import Header from "./Header";
+
 function App() {
   return (
     <>
-      <p>test</p>
+      <Header />
+      <Container />
+      <Footer />
     </>
   );
 }
