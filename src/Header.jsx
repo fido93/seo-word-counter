@@ -1,10 +1,11 @@
 import BackgroundImage from "./Background";
+import H1 from "./H1";
 
 const Header = () => {
   return (
     <header>
       <BackgroundImage />
-      <h1>Word Seo Counter</h1>
+      <H1 />
     </header>
   );
 };
